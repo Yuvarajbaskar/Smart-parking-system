@@ -1,0 +1,8 @@
+
+<div class="grid">
+  <button *ngFor="let s of slots"
+    [disabled]="!s.isAvailable"
+    (click)="bookSlot(s.id)">
+    Slot {{s.slotNumber}} – {{s.isAvailable ? 'Available' : 'Booked'}}
+  </button>
+</div>

@@ -1,0 +1,4 @@
+com\parking\controller\ParkingController.class
+com\parking\SmartParkingApplication.class
+com\parking\model\ParkingSlot.class
+com\parking\repository\ParkingSlotRepository.class
